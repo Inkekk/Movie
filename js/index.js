@@ -62,7 +62,7 @@ async function criaTemplateFocado(filme) {
   let filmeItemDisplayFocado = document.createElement("article");
   filmeItemDisplayFocado.classList.add("focus-film");
   if (conexaoConvertida.Poster == "N/A") {
-    filmePoster = "No_Image_Available.jpg";
+    filmePoster = "./images/No_Image_Available.jpg";
   } else {
     filmePoster = conexaoConvertida.Poster;
   }
